@@ -1,0 +1,11 @@
+<h1>Add new pet</h1>
+
+<div class="container w-25">
+  <%= simple_form_for(@restaurant) do |f| %>
+    <%= f.input :name %>
+    <%= f.input :address %>
+    <%= f.input :category %>
+    <%= f.input :phone_number %>
+    <%= f.submit "save" %>
+  <% end %>
+</div>
